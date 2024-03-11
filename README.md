@@ -8,7 +8,7 @@
 > Many existing library interfaces, if you use `get_output()`, will inevitably block the main process, leading to complex process management; this repository provides **non-blocking `get_output()`** for user convenience.
 - User-selectable support for stdout and stderr:
 > In many existing library interfaces, if you use `get_output()`, you cannot output to stdout to the terminal because they use pipe redirection; however, this repository allows you to print to the terminal while using `get_output()`.
-- For API usage examples, refer to src/demo.cpp.
+- For API usage examples, refer to [src/demo.cpp](https://github.com/GoesM/goes_popen/blob/main/multi_process_manager/src/demo.cpp).
 
 # References
 Except for the partial function naming reference to the Python library `subprocess` package, there are no other references. The content is entirely the author's own thoughts.
@@ -31,7 +31,7 @@ If you also wish to have a perfect concurrency management template in C++ progra
 > 很多现有库的接口实现，如果你get_output()就一定会阻塞主进程，从而导致进程管理复杂；本仓库提供**非阻塞get_output**以供用户使用
 - 用户自选 stdout和stderr支持
 > 很多现有库的接口实现，如果你get_output()就无法stdout到终端，这是因为他们使用了管道重定向；然而本仓库支持你在get_output()的同时依然可以打印到终端
-- API使用方式详见 src/demo.cpp
+- API使用方式详见 [src/demo.cpp](https://github.com/GoesM/goes_popen/blob/main/multi_process_manager/src/demo.cpp)
 
 
 
