@@ -1,4 +1,3 @@
-# English
 ## Problem Statement:
 #### When executing shell commands in C++, if not managed properly, the inability to exit autonomously may lead to the proliferation of zombie processes. How can we address this issue?
 #### This project provides an API interface `goes_popen()` implemented by the author to achieve the following objectives:
@@ -21,7 +20,7 @@ As this is entirely the author's own creation, there may be deficiencies.
 If you also wish to have a perfect concurrency management template in C++ programming like me, please submit an ISSUE or PR to contribute to the repository ^_^
 
 
-# 中文
+
 ## 面向问题：
 #### C++执行无法自主退出的shell指令，如果不合理管理，可能会导致野进程泛滥，我们该如何解决？
 #### 本项目提供本人实现的API接口 `goes_popen()`以实现以下目标
